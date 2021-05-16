@@ -28,7 +28,7 @@ or download the zip file from github.
 ## Usage
 After extracting the files,
 
-    cd https://github.com/Nishkarsh01/huddle-landing-page/
+    cd huddle-landing-page/
     open index.html
 
 ## Collaborate
