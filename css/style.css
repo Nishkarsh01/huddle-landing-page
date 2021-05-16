@@ -1,0 +1,120 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* css reset */
+* {
+  border: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* body */
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(../images/bg-desktop.svg);
+  color: #fff;
+}
+
+/* main styling */
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 2.4rem;
+}
+
+p {
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  opacity: 0.9;
+}
+
+/* header */
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* header logo */
+header .logo {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+/* header logo img */
+header .logo img {
+  width: 70%;
+}
+
+/* main section */
+main {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+main .left,
+main .right {
+  padding-top: 2%;
+  flex: 1;
+}
+
+main .left {
+  display: flex;
+  justify-content: center;
+}
+main .left img {
+  width: 100%;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+main .right .text {
+  width: 75%;
+  margin: 7% auto;
+  height: 85%;
+}
+
+/* main section buttons */
+main .right .text .btn {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: hsl(257, 40%, 49%);
+  background: #fff;
+  padding: 2% 10%;
+  display: inline-block;
+  margin-top: 2%;
+  border-radius: 50px;
+}
+
+main .right .text .btn:hover {
+  color: #fff;
+  background: hsl(300, 69%, 71%);
+}
+
+/* footer */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 90%;
+}
+
+/* footer buttons */
+.btn-circle {
+  background: hsl(257, 40%, 49%);
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  padding: 12px;
+  margin-right: 7px;
+}
+.btn-circle:hover {
+  color: hsl(300, 69%, 71%);
+  border: 2px solid hsl(300, 69%, 71%);
+}
